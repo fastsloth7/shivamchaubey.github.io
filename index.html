@@ -1,22 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Shivam Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shivam Kumar Chaubey | Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>Shivam Kumar Chaubey</h1>
-<p>Aspiring AI Engineer</p>
+<!-- Navigation Bar -->
+<nav id="navbar">
+    <h2 class="logo">Shivam</h2>
+    <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero">
+    <h1>Shivam Kumar Chaubey</h1>
+    <p>BTech CSE Student | Aspiring AI Engineer</p>
+    <a href="#projects" class="btn">View Projects</a>
+</section>
+
+<!-- About -->
+<section id="about">
+<h2>About Me</h2>
+<p>
+I am a Computer Science student passionate about Artificial Intelligence,
+Machine Learning, and backend development. I enjoy building real-world
+applications and continuously improving my programming skills.
+</p>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+<h2>Skills</h2>
+
+<div class="skills-container">
+
+<div class="skill-card">Java</div>
+<div class="skill-card">Python</div>
+<div class="skill-card">Machine Learning</div>
+<div class="skill-card">AI</div>
+<div class="skill-card">Spring Boot</div>
+<div class="skill-card">SQL</div>
+<div class="skill-card">Git & GitHub</div>
+
+</div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
 
 <h2>Projects</h2>
 
-<ul>
-<li>AI Recipe Generator</li>
-<li>Weather Data Visualization</li>
-<li>Java Backend API</li>
-</ul>
+<div class="projects-container">
+
+<div class="project-card">
+<h3>AI Recipe Generator</h3>
+<p>An AI powered application that generates recipes based on ingredients and preferences.</p>
+<a href="#" class="btn">GitHub</a>
+<a href="#" class="btn">Demo</a>
+</div>
+
+<div class="project-card">
+<h3>Weather Data Visualization</h3>
+<p>A Python project that analyzes and visualizes weather data using data science tools.</p>
+<a href="#" class="btn">GitHub</a>
+<a href="#" class="btn">Demo</a>
+</div>
+
+<div class="project-card">
+<h3>Java Spring Boot Backend API</h3>
+<p>RESTful API built with Spring Boot for scalable backend applications.</p>
+<a href="#" class="btn">GitHub</a>
+<a href="#" class="btn">Demo</a>
+</div>
+
+</div>
+
+</section>
+
+<!-- Resume -->
+<section id="resume">
+<h2>Resume</h2>
+<a href="#" class="btn">Download Resume</a>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+
+<h2>Contact</h2>
+
+<form id="contact-form">
+
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<textarea placeholder="Your Message" required></textarea>
+
+<button type="submit" class="btn">Send Message</button>
+
+</form>
+
+</section>
+
+<!-- Footer -->
+<footer>
+<p>© 2026 Shivam Kumar Chaubey</p>
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
